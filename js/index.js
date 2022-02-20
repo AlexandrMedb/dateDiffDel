@@ -7,6 +7,7 @@ const form = document.getElementById('datecalc');
 const formTimer = document.getElementById('timer');
 
 addSwitchModule(formTimer,form);
+let a=0;
 
 
 formTimer.onsubmit= (e) =>{
